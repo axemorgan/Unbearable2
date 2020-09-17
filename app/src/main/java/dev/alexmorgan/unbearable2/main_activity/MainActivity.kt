@@ -1,10 +1,12 @@
 package dev.alexmorgan.unbearable2.main_activity
 
 import android.os.Bundle
-import dev.alexmorgan.unbearable2.BaseActivity
+import androidx.activity.ComponentActivity
+import dagger.hilt.android.AndroidEntryPoint
 import dev.alexmorgan.unbearable2.R
 
-class MainActivity : BaseActivity() {
+@AndroidEntryPoint
+class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

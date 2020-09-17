@@ -1,7 +1,8 @@
-import Dependencies.daggerAndroid
+import Dependencies.daggerHilt
 
 plugins {
     id("com.android.application")
+    id("dagger.hilt.android.plugin")
     kotlin("android")
     kotlin("android.extensions")
     kotlin("kapt")
@@ -36,12 +37,19 @@ android {
     }
 }
 
+kapt {
+    correctErrorTypes = true
+}
+
 dependencies {
     implementation(Kotlin.stdlib)
 
+    implementation(AndroidX.activityKtx)
     implementation(AndroidX.appcompat)
     implementation(AndroidX.constraintLayout)
     implementation(AndroidX.coreKtx)
+    implementation(AndroidX.hiltViewModel)
+    kapt(AndroidX.hiltAndroidxCompiler)
 
-    daggerAndroid()
+    daggerHilt()
 }
