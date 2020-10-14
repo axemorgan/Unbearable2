@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".main_activity.MainActivity">
 
-    <fragment
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/main_fragment"
-        class="dev.alexmorgan.unbearable2.main_activity.BearListFragment"
+        android:name="dev.alexmorgan.unbearable2.main_activity.BearListFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

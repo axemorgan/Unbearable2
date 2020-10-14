@@ -48,8 +48,12 @@ dependencies {
     implementation(AndroidX.appcompat)
     implementation(AndroidX.constraintLayout)
     implementation(AndroidX.coreKtx)
+    implementation(AndroidX.fragmentKtx)
     implementation(AndroidX.hiltViewModel)
     kapt(AndroidX.hiltAndroidxCompiler)
+    implementation(AndroidX.recyclerView)
+
+    implementation(Dependencies.glide)
 
     daggerHilt()
 }

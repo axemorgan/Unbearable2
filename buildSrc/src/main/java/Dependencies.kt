@@ -29,6 +29,7 @@ object AndroidX {
         const val constraintLayout = "2.0.0"
         const val coordinatorLayout = "1.1.0"
         const val core = "1.3.1"
+        const val fragment = "1.2.5"
         const val hiltAndroidx = "1.0.0-alpha01"
         const val lifecycle = "2.2.0"
         const val recyclerView = "1.1.0"
@@ -43,6 +44,7 @@ object AndroidX {
     const val coreKtx = "androidx.core:core-ktx:${Versions.core}"
     const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
     const val coordinatorLayout = "androidx.coordinatorlayout:coordinatorlayout:${Versions.coordinatorLayout}"
+    const val fragmentKtx = "androidx.fragment:fragment-ktx:${Versions.fragment}"
     const val hiltViewModel = "androidx.hilt:hilt-lifecycle-viewmodel:${Versions.hiltAndroidx}"
     const val hiltAndroidxCompiler = "androidx.hilt:hilt-compiler:${Versions.hiltAndroidx}"
     const val liveData = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle}"
@@ -66,6 +68,7 @@ object Dependencies {
     private object Versions {
         const val dagger = "2.29.1"
         const val daggerHilt = "2.29-alpha"
+        const val glide = "4.11.0"
     }
 
     const val dagger = "com.google.dagger:dagger:${Versions.dagger}"
@@ -76,6 +79,8 @@ object Dependencies {
     const val daggerHiltCore = "com.google.dagger:hilt-core:${Versions.daggerHilt}"
     const val daggerHiltProcessor = "com.google.dagger:hilt-android-compiler:${Versions.daggerHilt}"
     const val daggerHiltPlugin = "com.google.dagger:hilt-android-gradle-plugin:${Versions.daggerHilt}"
+
+    const val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
 
     /**
      * Configures all the required dependencies for Dagger Android

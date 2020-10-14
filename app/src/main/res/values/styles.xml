@@ -6,6 +6,16 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="bearListItemNameBackground">@color/light_grey</item>
+        <item name="bearListItemNameTextAppearance">@style/BearListItemNameTextAppearance</item>
     </style>
+
+    <style name="BearListItemNameTextAppearance" parent="@style/TextAppearance.AppCompat.Large.Inverse">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <attr name="bearListItemNameBackground" format="reference" />
+    <attr name="bearListItemNameTextAppearance" format="reference" />
 
 </resources>
