@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Unbearable</string>
+    <string name="menu_item_show_bear_list_title">Show List</string>
+    <string name="menu_item_show_bear_grid_title">Show Grid</string>
 </resources>

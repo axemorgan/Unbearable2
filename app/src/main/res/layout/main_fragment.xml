@@ -11,9 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="horizontal"
-        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-        app:spanCount="2"
         tools:itemCount="24"
-        tools:listitem="@layout/bear_list_item" />
+        tools:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        tools:listitem="@layout/bear_list_item"
+        tools:spanCount="2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
